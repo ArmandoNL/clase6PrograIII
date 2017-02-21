@@ -2,41 +2,87 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
+    <link href="StyleSheet1.css" rel="stylesheet" />
+
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <div class="row">
+            <div class="col-md-9 col-md-push-3">
+                <input id="Text1" type="text" style="width:100%;"/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button1" type="button" value="Ans" onclick="" />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button2" type="button" value="C" />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button3" type="button" value="<--" />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button4" type="button" value="/" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button5" type="button" value="7" />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button6" type="button" value="8" />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button7" type="button" value="9" />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button8" type="button" value="x" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button9" type="button" value="4" />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button10" type="button" value="5" />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button11" type="button" value="6" />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button12" type="button" value="-" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button13" type="button" value="1" />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button14" type="button" value="2" />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button15" type="button" value="3" />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button16" type="button" value="+" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button17" type="button" value="-" />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button18" type="button" value="0" />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button19" type="button" value="." />
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input id="Button20" type="button" value="=" />
+            </div>
+        </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
-        </div>
-    </div>
+
 
 </asp:Content>
