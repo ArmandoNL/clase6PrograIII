@@ -19,7 +19,7 @@
                 <input id="Button2" type="button" value="C" />
             </div>
             <div class="col-xs-6 col-sm-3">
-                <input id="Button3" type="button" value="<--" />
+                <input id="Button3" type="button" value="<--" /> 
             </div>
             <div class="col-xs-6 col-sm-3">
                 <input id="Button4" type="button" value="/" />
